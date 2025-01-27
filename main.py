@@ -1,5 +1,5 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3,2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import numpy as np
 from Params import args
 import Utils.TimeLogger as logger
