@@ -15,8 +15,8 @@ Recent versions of the following packages for Python 3 are required:
 All of the datasets we use are publicly available datasets.
 ### Link
 The used datasets are available at:
-* Gowalla: SNAP: Network datasets: Gowalla (stanford.edu)
-* Movielens: MovieLens 10M Dataset | GroupLens
+* Gowalla: https://snap.stanford.edu/data/loc-Gowalla.html
+* Movielens: https://grouplens.org/datasets/movielens/10m/
 * Yelp: https://www.yelp.com/dataset
 
 
