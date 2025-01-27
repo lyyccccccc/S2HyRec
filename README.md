@@ -3,8 +3,9 @@
 This is the code for paper:
 > S2HyRec: Self-Supervised Hypergraph Sequential Recommendation
 
+![]((S2HyRec-framework.pdf)
 
-!["S2HyRec Performance Comparison"](https://github.com/lyyccccccc/S2HyRec/blob/main/S2HyRec-framework.pdf)
+!["S2HyRec Performance Comparison"](S2HyRec-framework.pdf)
 
 
 
