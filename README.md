@@ -5,7 +5,7 @@ This is the code for paper:
 
 
 
-!["S2HyRec Performance Comparison"](https://github.com/lyyccccccc/S2HyRec/blob/main/S2HyRec-framework.pdf)
+!["S2HyRec Performance Comparison"](https://github.com/lyyccccccc/S2HyRec/blob/main/S2HyRec_framework.png)
 
 
 
