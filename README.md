@@ -3,6 +3,8 @@
 This is the code for paper:
 > S2HyRec: Self-Supervised Hypergraph Sequential Recommendation
 
+https://github.com/lyyccccccc/S2HyRec/blob/main/S2HyRec-framework.pdf
+
 ## Dependencies
 Recent versions of the following packages for Python 3 are required:
 * matplotlib==3.3.4
