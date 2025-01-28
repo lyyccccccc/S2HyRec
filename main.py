@@ -1,8 +1,8 @@
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import numpy as np
-import Utils.TimeLogger as logger
-from Utils.TimeLogger import log
+import Utils.Logger as logger
+from Utils.Logger import log
 from DataHandler import DataHandler
 import tensorflow as tf
 import random
