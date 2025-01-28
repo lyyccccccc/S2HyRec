@@ -29,7 +29,7 @@ The used datasets are available at:
 ## Usage
 Use the following command to train the S2HyRec on the Gowalla dataset:
 
-* python main.py --data gowalla --lr 2e-3 --reg 1e-2 --temp 0.1 --save_path gowalla --epoch 150 --batch 512 --graphNum 3 --gnn_layer 2 --att_layer 2  --alpha 0.6 --trend_loss_weight 1e-4  --test True --testSize 1000 --ssldim 48
+* python main.py --data gowalla --lr 5e-3 --reg 1e-2 --temp 0.1 --save_path gowalla --epoch 150 --batch 512 --graphNum 3 --gnn_layer 1 --att_layer 1  --alpha 0.6 --ssl_weight 1e-6  --hyperNum 256 --test True --testSize 1000 --pos_length 300
 
 
   
