@@ -1,15 +1,13 @@
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import numpy as np
-from Params import args
 import Utils.TimeLogger as logger
 from Utils.TimeLogger import log
-from DataHandler import negSamp, transpose, DataHandler, transToLsts
+from DataHandler import DataHandler
 import tensorflow as tf
-from tensorflow.core.protobuf import config_pb2
-import pickle
-from model import Recommender
 import random
+from S2HyRec import S2HyRec
+
 if __name__ == '__main__':
 	logger.saveDefault = True
 	config = tf.ConfigProto()
@@ -23,5 +21,5 @@ if __name__ == '__main__':
 	random.seed(100)
 	tf.set_random_seed(100)
 	with tf.Session(config=config) as sess:
-		recom = Recommender(sess, handler)
-		recom.run()
+		s2hy = S2HyRec(sess, handler)
+		s2hy.run()
