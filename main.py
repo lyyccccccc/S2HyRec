@@ -17,9 +17,9 @@ if __name__ == '__main__':
 	handler = DataHandler()
 	handler.LoadData()
 	log('Load Data')
-	np.random.seed(100)
-	random.seed(100)
-	tf.set_random_seed(100)
+	np.random.seed(215)
+	random.seed(215)
+	tf.set_random_seed(215)
 	with tf.Session(config=config) as sess:
 		s2hy = S2HyRec(sess, handler)
 		s2hy.run()
