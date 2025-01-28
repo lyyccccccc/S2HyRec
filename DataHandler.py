@@ -71,9 +71,9 @@ def transToLsts(mat, mask=False, norm=False):
 class DataHandler:
 	def __init__(self):
 		if args.data == 'gowalla':
-			predir = './Datasets/gowalla/'
+			predir = './Dataset/gowalla/'
 		else:
-			predir='./Datasets/'+args.data+'/'
+			predir='./Dataset/'+args.data+'/'
 		self.predir = predir
 		self.trnfile = predir + 'trn_mat_time'
 		self.tstfile = predir + 'tst_int'
